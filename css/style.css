@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --bg-color: white;
+    --text-color:  rgb(9, 10, 41);
+}
+.darkMode{
+    --bg-color: rgb(5, 6, 27);
+    --text-color:  white;
+    transition: 0.3s;
+}
+
+
+
+body{
+    font-family: arial;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: 0.3s;
+
+}
+
+
+
+
+
+
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    height: 100vh;
+}
+
+.heading h2{
+    font-size: 80px;
+}
+
+.heading button{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border: none;
+    outline: none;
+    overflow: hidden;
+    margin-left: 20px;
+    border-radius: 6px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    
+}
+
+.heading button span{
+    width: 100%;
+    height: 100%;
+    display: block;
+    line-height: 40px;
+    font-size: 20px;
+}
+
+.heading button .sun{
+    background-color: rgb(255, 243, 25);
+    transition: 0.5s;
+
+}
+
+
+.heading button .moon{
+    background-color: rgb(9, 10, 41);
+    color: white;
+}
